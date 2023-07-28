@@ -6,6 +6,65 @@
   height: 40vmin;
   pointer-events: none;
 }
+body {
+  min-height: 100vh;
+  background: rgb(223, 225, 219);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(184, 248, 227);
+}
+.main-container {
+  width: 260px;
+  height: 382px;
+  border: 1px solid black;
+  background-color: black;
+}
+.display {
+  width: 258px;
+  height: 60px;
+  border: 1px solid bisque;
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: white;
+}
+button {
+  width: 60px;
+  height: 60px;
+  font-size: 25px;
+  outline: none;
+  border: 0px;
+  cursor: pointer;
+  margin: 2px;
+  background-color: rgba(185, 162, 162, 0.534);
+  color: white;
+  border-radius: 10px;
+}
+button:hover {
+  background-color: green;
+}
+button img {
+  width: 60px;
+  height: 60px;
+}
+.zero-btn {
+  width: 124px;
+}
+.red {
+  background-color: rgb(118, 118, 9);
+}
+.navbar{
+  background-color: #61dafb;
+}
+
+@media (max-width: 500px) {
+  body {
+    background-color:pink;
+    display: block;
+  }
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
